@@ -1,3 +1,6 @@
+/*DO NOT TOUCH THIS CSS*/
+/*I REPEAT: DO NOT TOUCH THIS CSS*/
+/*UNLES YOU ARE A WEB DEVELOPER OR IDM/CS STUDENT, DO NOT TOUCH THIS CSS*/
 * {
     box-sizing: border-box;
     overflow-x: hidden;
@@ -18,6 +21,8 @@
     padding: 0;
     }
 
+/*Head CSS*/
+
 .head_menu {
     background-color: rgb(0,3,127);
     text-align: right;
@@ -30,3 +35,15 @@
     text-decoration-style: none;
     padding: 5%;
     }
+
+/*index CSS*/
+
+/*directory CSS*/
+
+/*Footer CSS*/
+#footer{
+    width: 100%;
+    background-color: rgb(0,3,127);
+    color: white;
+    }
+

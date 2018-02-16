@@ -35,14 +35,12 @@
     <a id="past" href="past.php"><img src="http://via.placeholder.com/250x150"></a>
     <a id="team" href="team.php"><img src="http://via.placeholder.com/250x150"></a>
     <a id="withUs" href="withUs.php"><img src="http://via.placeholder.com/250x150"></a>
-    </div>
-
     </div>  
 
     <div id="footer">
         <p>Glide Labs 2018</p>
-    </div>      
+    </div> 
+    </div>     
 </div> 
 <script src="main.js"></script>
 </body>
-</html>
