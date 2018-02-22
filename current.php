@@ -12,12 +12,17 @@
 <body>
 <div id="wrapper">
     <div id="main">
-    <div class="head_menu">
-    <a id="home" href="index.php"><img src="http://via.placeholder.com/50x50"></a>
-    <a href="about.php">About</a>
-    <a href="publications.php">Publications</a>
-    <a href="contact.php">Contact</a>
-   </div>
+
+<div id="header">
+    <div id="logo">
+     <a id="home" href="index.php"><img src="http://via.placeholder.com/50x50"></a>
+    </div>
+        <div class="head_menu">
+        <a href="about.php">About</a>
+        <a href="publications.php">Publications</a>
+        <a href="contact.php">Contact</a>
+    </div>
+</div>
 
     <div id="pagebox">
     <h1>Current Projects</h1>

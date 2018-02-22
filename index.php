@@ -34,12 +34,14 @@
     Doctor Foster's papers mayhaps, or something here that we could stylize it and make an image of it in this box.</p>
     </div>
 
+    <div class="trapezoid"></div>
+
     <div id="visual_menu">
     <a class="one" id="current" href="current.php"><img src="http://via.placeholder.com/250x150"></a>
     <a class="two" id="past" href="past.php"><img src="http://via.placeholder.com/250x150"></a>
     <a class="three" id="team" href="team.php"><img src="http://via.placeholder.com/250x150"></a>
     <a class="four" id="withUs" href="withUs.php"><img src="http://via.placeholder.com/250x150"></a>
-    </div>  
+    </div> 
 
     <div id="footer">
         <p>Glide Labs 2018</p>

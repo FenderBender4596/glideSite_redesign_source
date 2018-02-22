@@ -13,22 +13,47 @@
 <div id="wrapper">
     <div id="main">
 
-    <div class="head_menu">
-    <a id="home" href="index.php"><img src="http://via.placeholder.com/50x50"></a>
-    <a href="about.php">About</a>
-    <a href="publications.php">Publications</a>
-    <a href="contact.php">Contact</a>
-   </div>
+<div id="header">
+    <div id="logo">
+     <a id="home" href="index.php"><img src="http://via.placeholder.com/50x50"></a>
+    </div>
+        <div class="head_menu">
+        <a href="about.php">About</a>
+        <a href="publications.php">Publications</a>
+        <a href="contact.php">Contact</a>
+    </div>
+</div>
 
     <div id="pagebox">
     <h1>The Team</h1>
     </div>
 
-    <div id="littleHead">
+    <div id="currentHead">
     <h2>Current Members</h2>
     </div>
 
-    <div id="directory" class="grid">
+    <div id="directory">
+    <div class="thumbnail"><a class="square" href="team.php"><img src="http://via.placeholder.com/100x100"></a></div>
+    <div class="thumbnail"><a class="square" href="team.php"><img src="http://via.placeholder.com/100x100"></a></div>
+    <div class="thumbnail"><a class="square" href="team.php"><img src="http://via.placeholder.com/100x100"></a></div>
+    <div class="thumbnail"><a class="square" href="team.php"><img src="http://via.placeholder.com/100x100"></a></div>
+    <div class="thumbnail"><a class="square" href="team.php"><img src="http://via.placeholder.com/100x100"></a></div>
+    <div class="thumbnail"><a class="square" href="team.php"><img src="http://via.placeholder.com/100x100"></a></div>
+    <div class="thumbnail"><a class="square" href="team.php"><img src="http://via.placeholder.com/100x100"></a></div>
+    <div class="thumbnail"><a class="square" href="team.php"><img src="http://via.placeholder.com/100x100"></a></div>
+    <div class="thumbnail"><a class="square" href="team.php"><img src="http://via.placeholder.com/100x100"></a></div>
+    <div class="thumbnail"><a class="square" href="team.php"><img src="http://via.placeholder.com/100x100"></a></div>
+    <div class="thumbnail"><a class="square" href="team.php"><img src="http://via.placeholder.com/100x100"></a></div>
+    <div class="thumbnail"><a class="square" href="team.php"><img src="http://via.placeholder.com/100x100"></a></div>
+    </div> 
+
+    <div id="pastHead">
+    <h2>Past Members</h2>
+    </div>
+
+    <div id="directory">
+    <div class="thumbnail"><a class="square" href="team.php"><img src="http://via.placeholder.com/100x100"></a></div>
+    <div class="thumbnail"><a class="square" href="team.php"><img src="http://via.placeholder.com/100x100"></a></div>
     <div class="thumbnail"><a class="square" href="team.php"><img src="http://via.placeholder.com/100x100"></a></div>
     <div class="thumbnail"><a class="square" href="team.php"><img src="http://via.placeholder.com/100x100"></a></div>
     <div class="thumbnail"><a class="square" href="team.php"><img src="http://via.placeholder.com/100x100"></a></div>
