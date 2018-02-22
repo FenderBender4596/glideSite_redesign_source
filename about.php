@@ -22,7 +22,7 @@
         <a href="publications.php">Publications</a>
         <a href="contact.php">Contact</a>
     </div>
-    <div onclick="toggleMenu()" class="mobile-menu">
+    <div onclick="toggleMenu()" class="toggle-me" class="mobile-menu">
         <a class="dropdown-link">Menu</a>
         <ul class="mobile-dropdown">
         <li><a href="index.php">Home</a></li>
