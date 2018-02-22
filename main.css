@@ -25,6 +25,7 @@
 #header {
     background-color: rgb(0,3,127);
     width: 100%;
+    position: fixed;
     }
 
 .head_menu {
@@ -51,6 +52,9 @@
     transition: 50ms linear;
     }
 
+/*Mobile Menu CSS in desktop*/
+
+
 /*index CSS*/
 
 #missionBox {
@@ -60,7 +64,7 @@
     padding-top: 10px;
     margin-left: 10%;
     margin-right: 10%;
-    margin-top: 3%;
+    margin-top: 10%;
     margin-bottom: 5%;
     width: 80%;
 	height: 100px;
@@ -185,10 +189,94 @@
     }
 
 /*Animation CSS*/
-  
-  @keyframes spin {
+@keyframes spin {
    0% {transform: rotate(0deg);}
       100% {transform: rotate(-45deg);}
-  }
+    }
 
 /*Media Queries*/
+
+@media screen and (min-width: 960px) {
+    .mobile-menu {
+        display: none;
+    }
+
+}
+
+@media screen and (orientation:portrait) {
+    /*Mobile Menu CSS*/
+    .mobile-menu {
+        width: auto;
+        position: relative;
+        padding: 0;
+        height: 50px;
+        line-height: 50px;
+        /* disable text selection by clicking */
+        -webkit-user-select: none;  
+        -moz-user-select: none;    
+        -ms-user-select: none;      
+        user-select: none;
+      }
+      
+      .mobile-menu a.dropdown-link{
+        display: block !important;
+        height: 50px;
+        padding: 0 20px;
+        color: #FFFFFF;
+        font-size: 20px;
+        cursor: pointer;
+        background: #000000;
+      }
+      
+      .mobile-menu a.dropdown-link:hover{
+          text-decoration: none;
+      }
+      .mobile-menu a.dropdown-link i{
+          float: right;
+          position: relative;
+          top: 15px;
+      }
+      
+      .mobile-dropdown {
+        display: none;
+        list-style-type: none;
+        background: #000000;
+        padding: 0;
+        min-width: 125px;
+        position: relative;
+        z-index: 100;
+        margin: 0;
+      }
+      
+      .mobile-dropdown li{
+        padding: 0;
+        height: auto;
+      }
+      
+      .mobile-dropdown li a{
+        padding: 0;
+        color: #FFFFFF;
+        display: block;
+        padding: 0 20px;
+        height: 40px;
+        line-height: 40px;
+        font-size: 13px;
+        text-decoration: none;
+      }
+      
+      .mobile-dropdown li a:hover{
+        text-decoration: none;
+        background: #00adef;
+      }
+    
+    .head_menu {
+        display: none;
+    }
+
+    #missionBox {
+        margin-top: 30%;
+        font-size: 0.75em;
+    }
+    
+
+    }

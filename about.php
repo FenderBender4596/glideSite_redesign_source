@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Abou</title>
+    <title>About</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css?family=Oswald|Raleway:500" rel="stylesheet">
     <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
@@ -21,6 +21,19 @@
         <a href="about.php">About</a>
         <a href="publications.php">Publications</a>
         <a href="contact.php">Contact</a>
+    </div>
+    <div onclick="toggleMenu()" class="mobile-menu">
+        <a class="dropdown-link">Menu</a>
+        <ul class="mobile-dropdown">
+        <li><a href="index.php">Home</a></li>
+        <li><a href="about.php">About</a></li>
+        <li><a href="publiactions.php">Publications</a></li>
+        <li><a href="current.php">Current Projects</a></li>
+        <li><a href="current.php">Current Projects</a></li>
+        <li><a href="team.php">The Team</a></li>
+        <li><a href="withUs">Work With Us</a></li>
+        <li><a href="contact.php">Contact</a></li>
+        </ul>
     </div>
 </div>
 

@@ -13,7 +13,7 @@
 <div id="wrapper">
     <div id="main">
 
- <div id="header">
+<div id="header">
     <div id="logo">
      <a id="home" href="index.php"><img src="http://via.placeholder.com/50x50"></a>
     </div>
@@ -21,6 +21,19 @@
         <a href="about.php">About</a>
         <a href="publications.php">Publications</a>
         <a href="contact.php">Contact</a>
+    </div>
+    <div onclick="toggleMenu()" class="mobile-menu">
+        <a class="dropdown-link">Menu</a>
+        <ul class="mobile-dropdown">
+        <li><a href="index.php">Home</a></li>
+        <li><a href="about.php">About</a></li>
+        <li><a href="publiactions.php">Publications</a></li>
+        <li><a href="current.php">Current Projects</a></li>
+        <li><a href="current.php">Current Projects</a></li>
+        <li><a href="team.php">The Team</a></li>
+        <li><a href="withUs">Work With Us</a></li>
+        <li><a href="contact.php">Contact</a></li>
+        </ul>
     </div>
 </div>
 
