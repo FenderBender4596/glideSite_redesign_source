@@ -15,7 +15,7 @@
 
     <div id="header">
     <div id="logo">
-     <img src="http://via.placeholder.com/50x50">
+    <a id="home" href="index.php"><img src="http://via.placeholder.com/50x50"></a>
     </div>
         <div class="head_menu">
         <a href="about.php">About</a>
@@ -37,30 +37,51 @@
     </div>
     </div>
 
-   <div id="pagebox">
+   <div id="headbox">
    <h1>Past Projects</h1>
    </div>
 
    <div id="projects">
-        <div class="project1">
+        <div id="project1">
             <h2>Title</h2>
             <img src="http://via.placeholder.com/250x100">
+            <div class="projectBox">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae repellat temporibus odio adipisci vero. 
+            impedit nisi, nesciunt repudiandae quisquam modi animi natus, maiores distinctio eius sunt odio?</p>
+            </div>
         </div>
-        <div class="project2">
+        
+        <div id="project2">
             <h2>Title</h2>
             <img src="http://via.placeholder.com/250x100">
+            <div class="projectBox">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae repellat temporibus odio adipisci vero. 
+            impedit nisi, nesciunt repudiandae quisquam modi animi natus, maiores distinctio eius sunt odio?</p>
+            </div>
         </div>
-        <div class="project3">
+        <div id="project3">
             <h2>Title</h2>
             <img src="http://via.placeholder.com/250x100">
+            <div class="projectBox">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae repellat temporibus odio adipisci vero. 
+            impedit nisi, nesciunt repudiandae quisquam modi animi natus, maiores distinctio eius sunt odio?</p>
+            </div>
         </div>
-        <div class="project4">
+        <div id="project4">
             <h2>Title</h2>
             <img src="http://via.placeholder.com/250x100">
+            <div class="projectBox">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae repellat temporibus odio adipisci vero. 
+            impedit nisi, nesciunt repudiandae quisquam modi animi natus, maiores distinctio eius sunt odio?</p>
+            </div>
         </div>
-        <div class="project5">
+        <div id="project5">
             <h2>Title</h2>
             <img src="http://via.placeholder.com/250x100">
+            <div class="projectBox">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae repellat temporibus odio adipisci vero. 
+            impedit nisi, nesciunt repudiandae quisquam modi animi natus, maiores distinctio eius sunt odio?</p>
+            </div>
         </div>
     </div>
 

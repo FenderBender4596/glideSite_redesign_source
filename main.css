@@ -178,6 +178,52 @@
     margin-top: 5%;
 }
 
+/* past/current */
+#projects {
+    margin: 0 auto;
+    margin-left: 5%;
+    padding: 5%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+}
+
+.projectBox {
+    margin-right: 15%;
+}
+
+#headbox {
+    background: rgba(0,3,127, .90);
+    color: white;
+    padding-left: 5%;
+    margin-top: 50px;
+}
+
+#project1 img {
+    width: 80%;
+}
+
+#project2 img {
+    width: 80%;
+}
+
+#project3 img {
+    width: 80%;
+}
+
+#project4 img {
+    width: 80%;
+}
+
+#project5 img {
+    width: 80%;
+}
+
+
+
+
 /*Footer CSS*/
 #footer{
     position: absolute;

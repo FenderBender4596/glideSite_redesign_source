@@ -15,7 +15,7 @@
 
     <div id="header">
     <div id="logo">
-     <img src="http://via.placeholder.com/50x50">
+    <a id="home" href="index.php"><img src="http://via.placeholder.com/50x50"></a>
     </div>
         <div class="head_menu">
         <a href="about.php">About</a>
