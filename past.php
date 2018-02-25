@@ -13,41 +13,63 @@
 <div id="wrapper">
     <div id="main">
 
-<div id="header">
+    <div id="header">
     <div id="logo">
-     <a id="home" href="index.php"><img src="http://via.placeholder.com/50x50"></a>
+     <img src="http://via.placeholder.com/50x50">
     </div>
         <div class="head_menu">
         <a href="about.php">About</a>
         <a href="publications.php">Publications</a>
         <a href="contact.php">Contact</a>
     </div>
-    <div onclick="toggleMenu()" class="mobile-menu">
-        <a class="dropdown-link">Menu</a>
+    <div class="mobile-menu">
+        <a  class="dropdown-link">EXPLORE</a>
         <ul class="mobile-dropdown">
         <li><a href="index.php">Home</a></li>
         <li><a href="about.php">About</a></li>
         <li><a href="publiactions.php">Publications</a></li>
-        <li><a href="current.php">Current Projects</a></li>
-        <li><a href="current.php">Current Projects</a></li>
-        <li><a href="team.php">The Team</a></li>
-        <li><a href="withUs">Work With Us</a></li>
+        <li><a href="current.php">Current</a></li>
+        <li><a href="past.php">Past</a></li>
+        <li><a href="team.php">Current</a></li>
+        <li><a href="withUs.php">Work With Us</a></li>
         <li><a href="contact.php">Contact</a></li>
         </ul>
     </div>
-</div>
+    </div>
 
    <div id="pagebox">
    <h1>Past Projects</h1>
    </div>
 
-     
+   <div id="projects">
+        <div class="project1">
+            <h2>Title</h2>
+            <img src="http://via.placeholder.com/250x100">
+        </div>
+        <div class="project2">
+            <h2>Title</h2>
+            <img src="http://via.placeholder.com/250x100">
+        </div>
+        <div class="project3">
+            <h2>Title</h2>
+            <img src="http://via.placeholder.com/250x100">
+        </div>
+        <div class="project4">
+            <h2>Title</h2>
+            <img src="http://via.placeholder.com/250x100">
+        </div>
+        <div class="project5">
+            <h2>Title</h2>
+            <img src="http://via.placeholder.com/250x100">
+        </div>
+    </div>
 
     <div id="footer">
         <p>Glide Labs 2018</p>
     </div> 
     </div>      
 </div> 
+<script src="js/jquery-3.3.1.js" type="text/javascript"></script> 
 <script src="main.js"></script>
 </body>
 </html>

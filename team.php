@@ -13,29 +13,30 @@
 <div id="wrapper">
     <div id="main">
 
-<div id="header">
+    <div id="header">
     <div id="logo">
-     <a id="home" href="index.php"><img src="http://via.placeholder.com/50x50"></a>
+     <img src="http://via.placeholder.com/50x50">
     </div>
         <div class="head_menu">
         <a href="about.php">About</a>
         <a href="publications.php">Publications</a>
         <a href="contact.php">Contact</a>
+        <a href="#">Projects</a>
     </div>
-    <div onclick="toggleMenu()" class="mobile-menu">
-        <a class="dropdown-link">Menu</a>
+    <div class="mobile-menu">
+        <a  class="dropdown-link">EXPLORE</a>
         <ul class="mobile-dropdown">
         <li><a href="index.php">Home</a></li>
         <li><a href="about.php">About</a></li>
         <li><a href="publiactions.php">Publications</a></li>
-        <li><a href="current.php">Current Projects</a></li>
-        <li><a href="current.php">Current Projects</a></li>
-        <li><a href="team.php">The Team</a></li>
-        <li><a href="withUs">Work With Us</a></li>
+        <li><a href="current.php">Current</a></li>
+        <li><a href="past.php">Past</a></li>
+        <li><a href="team.php">Current</a></li>
+        <li><a href="withUs.php">Work With Us</a></li>
         <li><a href="contact.php">Contact</a></li>
         </ul>
     </div>
-</div>
+    </div>
 
     <div id="pagebox">
     <h1>The Team</h1>
@@ -83,6 +84,7 @@
         <p>Glide Labs 2018</p>
     </div>      
 </div> 
+<script src="js/jquery-3.3.1.js" type="text/javascript"></script> 
 <script src="main.js"></script>
 </body>
 </html>

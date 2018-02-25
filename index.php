@@ -22,13 +22,13 @@
         <a href="publications.php">Publications</a>
         <a href="contact.php">Contact</a>
     </div>
-    <div onclick="toggleMenu()" id="togClass" class="mobile-menu">
-        <a class="dropdown-link">EXPLORE</a>
-        <ul class="mobile-dropdown">
+    <div class="mobile-menu">
+    <a class="dropdown-link">EXPLORE</a>
+     <ul class="mobile-dropdown">
         <li><a href="about.php">About</a></li>
-        <li><a href="publiactions.php">Publications</a></li>
+        <li><a href="publications.php">Publications</a></li>
         <li><a href="contact.php">Contact</a></li>
-        </ul>
+    </ul>
     </div>
 </div>
 
@@ -57,6 +57,8 @@
         <p>Glide Labs 2018</p>
     </div> 
     </div>     
-</div> 
+</div>
+<script src="js/jquery-3.3.1.js" type="text/javascript"></script> 
 <script src="main.js"></script>
 </body>
+</html>

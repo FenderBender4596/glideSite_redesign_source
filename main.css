@@ -185,7 +185,8 @@
     background-color: rgb(0,3,127);
     color: white;
     text-align: center;
-    bottom: -60%;
+    margin-bottom: 0;
+    margin-top: 10%;
     }
 
 /*Animation CSS*/
@@ -216,16 +217,17 @@
         -moz-user-select: none;    
         -ms-user-select: none;      
         user-select: none;
+        z-index: 1;
       }
       
       .mobile-menu a.dropdown-link{
-        display: block !important;
+        display: block;
         height: 50px;
         padding: 0 20px;
-        color: #000;
+        color: #FFFFFF;
         font-size: 20px;
         cursor: pointer;
-        background: #fff;
+        background: #000000;
       }
       
       .mobile-menu a.dropdown-link:hover{
@@ -267,7 +269,7 @@
       .mobile-dropdown li a:hover{
         text-decoration: none;
         background: #00adef;
-      }
+    }
     
     .head_menu {
         display: none;
@@ -281,6 +283,8 @@
     #visual_menu {
         padding-left: 0%;
         padding-right: 0%;
+        grid-template-columns: repeat(1, 2fr);
+        grid-row-gap: 5px;
     }
 
     #visual_menu img{
@@ -292,5 +296,16 @@
         width: 95.5%;
         margin-left: 2.5%;
         }
+    
+    #hero {
+        position: static;
+        width: 100%;
+        margin-top: 25%;   
+        }
+    
+    #footer {
+        margin-bottom: 0;
+        margin-top: 10%;
+    }
 
     }

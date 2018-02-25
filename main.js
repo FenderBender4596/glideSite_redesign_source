@@ -1,11 +1,19 @@
-var togByClass = document.getElementById('togClass');
-var addClassToDiv = document.getElementsByClassName("mobile-menu")[0];
-
-togByClass.addEventListener("click", function () {
-    toggleMenu();
+$(document).ready(function() {
+	$(".mobile-menu").on('click', function(){
+        console.log('menu_toggled');
+		$(".mobile-dropdown").slideToggle("fast");
+	});
 });
 
-function toggleMenu() {
-    console.log('toggled menu');
-    addClassToDiv.classList.toggle("mobile-dropdown");
-  }
+
+// var togByClass = document.getElementById('togClass');
+// var addClassToDiv = document.getElementById("mobile");
+
+// togByClass.addEventListener("click", function () {
+//     toggleMenu();
+// });
+
+// function toggleMenu() {
+//     console.log('toggled menu');
+//     addClassToDiv.classList.toggle("mobile-menu");
+//   }
