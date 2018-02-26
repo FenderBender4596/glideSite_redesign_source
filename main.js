@@ -5,6 +5,13 @@ $(document).ready(function() {
 	});
 });
 
+function stext() {
+    var x = document.getElementById("pastLink");
+    var y = document.getElementById("currentLink");
+    x.style.color = 'red';
+    y.style.color = 'black';
+}
+
 
 // var togByClass = document.getElementById('togClass');
 // var addClassToDiv = document.getElementById("mobile");

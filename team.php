@@ -47,18 +47,18 @@
     </div>
 
     <div id="directory">
-    <div class="thumbnail"><a class="square" href="team.php"><img src="http://via.placeholder.com/100x100"></a></div>
-    <div class="thumbnail"><a class="square" href="team.php"><img src="http://via.placeholder.com/100x100"></a></div>
-    <div class="thumbnail"><a class="square" href="team.php"><img src="http://via.placeholder.com/100x100"></a></div>
-    <div class="thumbnail"><a class="square" href="team.php"><img src="http://via.placeholder.com/100x100"></a></div>
-    <div class="thumbnail"><a class="square" href="team.php"><img src="http://via.placeholder.com/100x100"></a></div>
-    <div class="thumbnail"><a class="square" href="team.php"><img src="http://via.placeholder.com/100x100"></a></div>
-    <div class="thumbnail"><a class="square" href="team.php"><img src="http://via.placeholder.com/100x100"></a></div>
-    <div class="thumbnail"><a class="square" href="team.php"><img src="http://via.placeholder.com/100x100"></a></div>
-    <div class="thumbnail"><a class="square" href="team.php"><img src="http://via.placeholder.com/100x100"></a></div>
-    <div class="thumbnail"><a class="square" href="team.php"><img src="http://via.placeholder.com/100x100"></a></div>
-    <div class="thumbnail"><a class="square" href="team.php"><img src="http://via.placeholder.com/100x100"></a></div>
-    <div class="thumbnail"><a class="square" href="team.php"><img src="http://via.placeholder.com/100x100"></a></div>
+    <div class="thumbnail"><a class="square" href="template.php"><img src="http://via.placeholder.com/100x100"></a></div>
+    <div class="thumbnail"><a class="square" href="template.php"><img src="http://via.placeholder.com/100x100"></a></div>
+    <div class="thumbnail"><a class="square" href="template.php"><img src="http://via.placeholder.com/100x100"></a></div>
+    <div class="thumbnail"><a class="square" href="template.php"><img src="http://via.placeholder.com/100x100"></a></div>
+    <div class="thumbnail"><a class="square" href="template.php"><img src="http://via.placeholder.com/100x100"></a></div>
+    <div class="thumbnail"><a class="square" href="template.php"><img src="http://via.placeholder.com/100x100"></a></div>
+    <div class="thumbnail"><a class="square" href="template.php"><img src="http://via.placeholder.com/100x100"></a></div>
+    <div class="thumbnail"><a class="square" href="template.php"><img src="http://via.placeholder.com/100x100"></a></div>
+    <div class="thumbnail"><a class="square" href="template.php"><img src="http://via.placeholder.com/100x100"></a></div>
+    <div class="thumbnail"><a class="square" href="template.php"><img src="http://via.placeholder.com/100x100"></a></div>
+    <div class="thumbnail"><a class="square" href="template.php"><img src="http://via.placeholder.com/100x100"></a></div>
+    <div class="thumbnail"><a class="square" href="template.php"><img src="http://via.placeholder.com/100x100"></a></div>
     </div> 
 
     <div id="pastHead">
@@ -66,18 +66,18 @@
     </div>
 
     <div id="directory">
-    <div class="thumbnail"><a class="square" href="team.php"><img src="http://via.placeholder.com/100x100"></a></div>
-    <div class="thumbnail"><a class="square" href="team.php"><img src="http://via.placeholder.com/100x100"></a></div>
-    <div class="thumbnail"><a class="square" href="team.php"><img src="http://via.placeholder.com/100x100"></a></div>
-    <div class="thumbnail"><a class="square" href="team.php"><img src="http://via.placeholder.com/100x100"></a></div>
-    <div class="thumbnail"><a class="square" href="team.php"><img src="http://via.placeholder.com/100x100"></a></div>
-    <div class="thumbnail"><a class="square" href="team.php"><img src="http://via.placeholder.com/100x100"></a></div>
-    <div class="thumbnail"><a class="square" href="team.php"><img src="http://via.placeholder.com/100x100"></a></div>
-    <div class="thumbnail"><a class="square" href="team.php"><img src="http://via.placeholder.com/100x100"></a></div>
-    <div class="thumbnail"><a class="square" href="team.php"><img src="http://via.placeholder.com/100x100"></a></div>
-    <div class="thumbnail"><a class="square" href="team.php"><img src="http://via.placeholder.com/100x100"></a></div>
-    <div class="thumbnail"><a class="square" href="team.php"><img src="http://via.placeholder.com/100x100"></a></div>
-    <div class="thumbnail"><a class="square" href="team.php"><img src="http://via.placeholder.com/100x100"></a></div>
+    <div class="thumbnail"><a class="square" href="template.php"><img src="http://via.placeholder.com/100x100"></a></div>
+    <div class="thumbnail"><a class="square" href="template.php"><img src="http://via.placeholder.com/100x100"></a></div>
+    <div class="thumbnail"><a class="square" href="template.php"><img src="http://via.placeholder.com/100x100"></a></div>
+    <div class="thumbnail"><a class="square" href="template.php"><img src="http://via.placeholder.com/100x100"></a></div>
+    <div class="thumbnail"><a class="square" href="template.php"><img src="http://via.placeholder.com/100x100"></a></div>
+    <div class="thumbnail"><a class="square" href="template.php"><img src="http://via.placeholder.com/100x100"></a></div>
+    <div class="thumbnail"><a class="square" href="template.php"><img src="http://via.placeholder.com/100x100"></a></div>
+    <div class="thumbnail"><a class="square" href="template.php"><img src="http://via.placeholder.com/100x100"></a></div>
+    <div class="thumbnail"><a class="square" href="template.php"><img src="http://via.placeholder.com/100x100"></a></div>
+    <div class="thumbnail"><a class="square" href="template.php"><img src="http://via.placeholder.com/100x100"></a></div>
+    <div class="thumbnail"><a class="square" href="template.php"><img src="http://via.placeholder.com/100x100"></a></div>
+    <div class="thumbnail"><a class="square" href="template.php"><img src="http://via.placeholder.com/100x100"></a></div>
     </div>  
 
     <div id="footer">

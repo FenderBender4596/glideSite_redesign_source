@@ -21,6 +21,7 @@
         <a href="about.php">About</a>
         <a href="publications.php">Publications</a>
         <a href="contact.php">Contact</a>
+        <a href="#">Projects</a>
     </div>
     <div class="mobile-menu">
         <a  class="dropdown-link">EXPLORE</a>
@@ -43,8 +44,8 @@
 
    <div id="projects">
         <div id="project1">
-            <h2>Title</h2>
-            <img src="http://via.placeholder.com/250x100">
+            <h2 class="title">Title</h2>
+            <a href="template.php"><img src="http://via.placeholder.com/250x100"></a>
             <div class="projectBox">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae repellat temporibus odio adipisci vero. 
             impedit nisi, nesciunt repudiandae quisquam modi animi natus, maiores distinctio eius sunt odio?</p>
@@ -52,32 +53,32 @@
         </div>
         
         <div id="project2">
-            <h2>Title</h2>
-            <img src="http://via.placeholder.com/250x100">
+            <h2 class="title">Title</h2>
+            <a href="template.php"><img src="http://via.placeholder.com/250x100"></a>
             <div class="projectBox">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae repellat temporibus odio adipisci vero. 
             impedit nisi, nesciunt repudiandae quisquam modi animi natus, maiores distinctio eius sunt odio?</p>
             </div>
         </div>
         <div id="project3">
-            <h2>Title</h2>
-            <img src="http://via.placeholder.com/250x100">
+            <h2 class="title">Title</h2>
+            <a href="template.php"><img src="http://via.placeholder.com/250x100"></a>
             <div class="projectBox">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae repellat temporibus odio adipisci vero. 
             impedit nisi, nesciunt repudiandae quisquam modi animi natus, maiores distinctio eius sunt odio?</p>
             </div>
         </div>
         <div id="project4">
-            <h2>Title</h2>
-            <img src="http://via.placeholder.com/250x100">
+            <h2 class="title">Title</h2>
+            <a href="template.php"><img src="http://via.placeholder.com/250x100"></a>
             <div class="projectBox">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae repellat temporibus odio adipisci vero. 
             impedit nisi, nesciunt repudiandae quisquam modi animi natus, maiores distinctio eius sunt odio?</p>
             </div>
         </div>
         <div id="project5">
-            <h2>Title</h2>
-            <img src="http://via.placeholder.com/250x100">
+            <h2 class="title">Title</h2>
+            <a href="template.php"><img src="http://via.placeholder.com/250x100"></a>
             <div class="projectBox">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae repellat temporibus odio adipisci vero. 
             impedit nisi, nesciunt repudiandae quisquam modi animi natus, maiores distinctio eius sunt odio?</p>

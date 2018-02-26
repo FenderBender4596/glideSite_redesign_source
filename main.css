@@ -26,6 +26,7 @@
     background-color: rgb(0,3,127);
     width: 100%;
     position: fixed;
+    z-index: 999;
     }
 
 .head_menu {
@@ -178,7 +179,22 @@
     margin-top: 5%;
 }
 
-/* past/current */
+/* project.php CSS */
+
+#projPageBox {
+    margin: 0 auto;
+    /* margin-left: 0%; */
+    padding: 5%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+    text-align: center;
+}
+}
+
+/* past.php/current.php CSS */
 #projects {
     margin: 0 auto;
     margin-left: 5%;
@@ -221,6 +237,46 @@
     width: 80%;
 }
 
+/* template_project CSS */
+
+#templateTitle {
+    margin-top: 5%;
+    background: rgba(0,3,127, .90);
+    width: 100%;
+    color: #fff;
+    padding-left: 5%;
+}
+
+#templatePage {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: -5%;
+}
+
+#templatePicWeb {
+    position: absolute;
+    width: 100%;
+    margin-bottom: -5%;
+    padding-right: 5%;
+    z-index: -999;
+}
+
+#templatePicWeb img {
+    width: 50%;
+}
+
+#templatePicPhone {
+    display: none;
+}
+
+#templateDesc {
+    margin: 5%;
+    background-color: rgba(204, 204, 204, 0.8);
+    padding: 5%;
+    border-radius: 15px;
+    margin-left: 50%;
+    margin-right: 2%;
+}
 
 
 
@@ -348,6 +404,36 @@
         width: 100%;
         margin-top: 25%;   
         }
+
+    #templateTitle { 
+        margin-top: 25%;
+    }  
+    
+    #templatePage {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: -5%;
+    }
+
+    #templateDesc {
+        margin: 5%;
+        background-color: rgba(204, 204, 204, 0.8);
+        padding: 5%;
+        border-radius: 15px;
+    }
+
+    #templatePicWeb {
+        display: none;
+    }
+
+    #templatePicPhone {
+        width: 100%;
+    }
+
+    #templatePicPhone img {
+        width: 100%;
+    }
+
     
     #footer {
         margin-bottom: 0;
