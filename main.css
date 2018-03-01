@@ -3,15 +3,15 @@
 /*UNLES YOU ARE A WEB DEVELOPER OR IDM/CS STUDENT, DO NOT TOUCH THIS CSS*/
 * {
     box-sizing: border-box;
-    overflow-x: hidden;
     font-family: 'Raleway', sans-serif;
     }
     
  html {
-    font-size: 16px;
+    font-size: 100%;
     width: 100%;
     height: 100vh;
-    background-image: url(images/background.png);    
+    background-image: url(images/background.png);
+    overflow-x: hidden;
     }
 
 
@@ -27,6 +27,8 @@
     width: 100%;
     position: fixed;
     z-index: 999;
+    top: 0;
+    left: 0;
     }
 
 .head_menu {
@@ -62,7 +64,7 @@
     background: rgba(0,3,127, .70);
     color: #fff;
     text-align: center;
-    padding-top: 10px;
+    padding-top: 0.5rem;
     margin-left: 10%;
     margin-right: 10%;
     margin-top: 10%;
@@ -95,13 +97,13 @@
 }
 
 .trapezoid {
-    border-bottom: 50px solid rgba(0,3,127, .90);
+    border-bottom: 50px solid rgba(255,255, 255, .90);
     border-left: 20px solid transparent;
     border-right: 20px solid transparent;
     height: 0;
-    width: 55.5%;
-    margin-left: 23%;
-    margin-top: 3%;
+    width: 51.5%;
+    margin-left: -38%;
+    margin-top: -5%;
     }
 
 
@@ -195,16 +197,22 @@
 }
 
 /* past.php/current.php CSS */
-#projects {
-    margin: 0 auto;
-    margin-left: 5%;
-    padding: 5%;
-    width: 100%;
-    display: grid;
-    grid-template-columns: repeat(2, 2fr);
-    grid-gap: 10px;
-    grid-auto-rows: minmax(100px, auto);
+
+.title {
+    display: block;
 }
+
+/* .projectSelect {
+margin: 0 auto;
+margin-left: 5%;
+padding: 5%;
+width: 100%;
+display: grid;
+grid-template-columns: repeat(2, 2fr);
+grid-gap: 10px;
+grid-auto-rows: minmax(100px, auto);
+} */
+
 
 .projectBox {
     margin-right: 15%;
@@ -395,8 +403,7 @@
         }
 
     .trapezoid {
-        width: 95.5%;
-        margin-left: 2.5%;
+        display: none;
         }
     
     #hero {
@@ -434,6 +441,11 @@
         width: 100%;
     }
 
+    #directory {
+        grid-template-columns: repeat(2, 2fr);
+        grid-row-gap: 5px;
+        grid-column-gap: 5px;
+    }
     
     #footer {
         margin-bottom: 0;

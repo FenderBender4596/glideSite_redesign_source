@@ -21,6 +21,7 @@
         <a href="about.php">About</a>
         <a href="publications.php">Publications</a>
         <a href="contact.php">Contact</a>
+        <a href="projects.php">Projects</a>
     </div>
     <div class="mobile-menu">
         <a  class="dropdown-link">EXPLORE</a>
@@ -53,8 +54,8 @@
     </div>
 
     <div id="footer">
-        <p>Glide Labs 2018</p>
-    </div> 
+        <p>Copyright © 2018 GLIDE Lab. All rights reserved</p>
+    </div>  
     </div>      
 </div> 
 <script src="js/jquery-3.3.1.js" type="text/javascript"></script> 

@@ -17,11 +17,11 @@
     <div id="logo">
     <a id="home" href="index.php"><img src="http://via.placeholder.com/50x50"></a>
     </div>
-        <div class="head_menu">
-        <a href="about.php">About</a>
-        <a href="publications.php">Publications</a>
-        <a href="contact.php">Contact</a>
-        <a href="#">Projects</a>
+    <div class="head_menu">
+    <a href="about.php">About</a>
+    <a href="publications.php">Publications</a>
+    <a href="contact.php">Contact</a>
+    <a href="projects.php">Projects</a>
     </div>
     <div class="mobile-menu">
         <a  class="dropdown-link">EXPLORE</a>
@@ -65,7 +65,7 @@
      
 
     <div id="footer">
-        <p>Glide Labs 2018</p>
+        <p>Copyright © 2018 GLIDE Lab. All rights reserved</p>
     </div> 
     </div> 
 </div> 

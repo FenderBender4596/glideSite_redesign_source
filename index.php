@@ -16,6 +16,7 @@
 <div id="header">
     <div id="logo">
      <a id="home" href="index.php"><img src="http://via.placeholder.com/50x50"></a>
+     <div class="trapezoid"></div>
     </div>
         <div class="head_menu">
         <a href="about.php">About</a>
@@ -39,12 +40,12 @@
     </div>
 
     <div id="theDiv">
-    <p>"this would be an overview of our message at glide, and the very first thing that people would read. It has to
-    be about what this company represents, and what we do at glide that makes us unique and special. Maybe a quote from
-    Doctor Foster's papers mayhaps, or something here that we could stylize it and make an image of it in this box.</p>
+    <p>
+    In the GLIDE Lab, we conduct research and design of games and interactive digital environments. Our research is pluralistic methodological 
+    motivation, and identity formation in multiple disciplines and interdisciplinary areas. Broadly, the mission of the GLIDE lab is to explore the 
+    learning process, motivation to learn, and identity change in students using immersive digital technologies to impact formal and informal learning. 
+    </p>
     </div>
-
-    <div class="trapezoid"></div>
 
     <div id="visual_menu">
     <a class="one" id="current" href="current.php"><img src="http://via.placeholder.com/250x150"></a>
@@ -54,7 +55,7 @@
     </div> 
 
     <div id="footer">
-        <p>Glide Labs 2018</p>
+        <p>Copyright © 2018 GLIDE Lab. All rights reserved</p>
     </div> 
     </div>     
 </div>
