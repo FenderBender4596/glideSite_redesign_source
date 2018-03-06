@@ -11,6 +11,7 @@
     width: 100%;
     height: 100vh;
     background-image: url(images/background.png);
+    background-repeat: repeat
     overflow-x: hidden;
     }
 
@@ -31,6 +32,12 @@
     left: 0;
     }
 
+
+
+    .mobile_logo {
+        display: none;
+    }
+
 .head_menu {
     text-align: right;
     width: 100%;
@@ -43,10 +50,12 @@
     color: white;
     text-decoration: none;
     padding-left: 5%;
-    padding-right: 5%;
+    padding-right: 3.7rem;
     margin-top: -5%;
+    border-radius: 1.5rem;
+    width: 1%;
     font-family: 'Oswald', sans-serif;
-    font-size: 1.75em;
+    font-size: 1.3em;
     }
 
 .head_menu a:hover {
@@ -67,45 +76,60 @@
     padding-top: 0.5rem;
     margin-left: 10%;
     margin-right: 10%;
-    margin-top: 10%;
-    margin-bottom: 5%;
+    margin-top: 4rem;
+    margin-bottom: 1rem;
     width: 80%;
 	height: 100px;
 	transform: skew(-10deg);
 }
 
-#theDiv {
+#mainDiv {
     padding-left: 10%;
     padding-right: 10%;
     width: 100%;
-    margin-top: -2%;
+    margin-top: -2rem;
+    padding: 2rem;
+    margin-bottom: 1.5rem;
     background-color: white;
     text-align: center;
 
 }
 
+#diagramDiv {
+    width: 100%;
+    height: auto;
+    background: linear-gradient(217deg, rgba(127, 222, 244, 0.8), rgba(231, 249, 253,0.5) 70.71%);
+}
+
+.diagramAnim {
+    width: 100%;
+}
+
 #visual_menu {
     display: grid;
     grid-template-columns: repeat(2, 2fr);
-    grid-row-gap: 10px;
-    grid-column-gap: 10px;
+    grid-column-gap: .5rem;
     grid-auto-rows: minmax(100px, auto);
-    padding-left: 18%;
+    padding-left: 4.5rem;
+    padding-right: 5rem;
     width: 100%;
-    margin-bottom: 5%;
-    background-color: rgba(0,3,127, .90);
+    margin-bottom: 0%;
 }
 
-.trapezoid {
-    border-bottom: 50px solid rgba(255,255, 255, .90);
-    border-left: 20px solid transparent;
-    border-right: 20px solid transparent;
-    height: 0;
-    width: 51.5%;
-    margin-left: -38%;
-    margin-top: -5%;
-    }
+#visual_menu a {
+    text-decoration: none;
+}
 
+
+#currentLink, #teamLink, #pastLink, #workLink {
+    margin-top: -0.3rem;
+    max-width: 250px;
+    text-align: left;
+    color: white;
+    background: rgba(0,3,127, .90);
+    height: 3.1rem;
+    padding: .60rem;
+}
 
 /*directory CSS*/
 #currentHead {
@@ -307,6 +331,12 @@ grid-auto-rows: minmax(100px, auto);
 
 /*Media Queries*/
 
+@media screen and (min-width: 1210px) {
+    #visual_menu {
+        padding-left: 9.2rem;
+    }
+}
+
 @media screen and (min-width: 960px) {
     .mobile-menu {
         display: none;
@@ -316,6 +346,17 @@ grid-auto-rows: minmax(100px, auto);
 
 @media screen and (orientation:portrait) {
     /*Mobile Menu CSS*/
+
+    .web_logo {
+        display: none;
+    }
+
+    .mobile_logo {
+        display: block;
+        width: 100%;
+
+    }
+
     .mobile-menu {
         width: auto;
         position: relative;
@@ -334,10 +375,10 @@ grid-auto-rows: minmax(100px, auto);
         display: block;
         height: 50px;
         padding: 0 20px;
-        color: #FFFFFF;
+        color: #000000;
         font-size: 20px;
         cursor: pointer;
-        background: #000000;
+        background-image: url(images/menu_png.png);
       }
       
       .mobile-menu a.dropdown-link:hover{
@@ -352,7 +393,7 @@ grid-auto-rows: minmax(100px, auto);
       .mobile-dropdown {
         display: none;
         list-style-type: none;
-        background: #000000;
+        background: rgb(0,3,127);
         padding: 0;
         min-width: 125px;
         position: relative;
@@ -389,22 +430,59 @@ grid-auto-rows: minmax(100px, auto);
         margin-top: 30%;
         font-size: 0.75em;
     }
+
+    #mainDiv {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    width: 100%;
+    margin-top: -7.7rem;
+    background-color: white;
+    text-align: center;
+    padding-top: 0.5rem;
+    padding-bottom: .5rem;
+    word-spacing: 0.1rem;
+    letter-spacing: 0.1rem;
+    }
+
+    #diagramDiv {
+        margin-top: -8rem;
+    }
     
     #visual_menu {
         padding-left: 0%;
         padding-right: 0%;
         grid-template-columns: repeat(1, 2fr);
         grid-row-gap: 5px;
+        background-color: #fff;
     }
 
     #visual_menu img{
         width: 100%;
-        height: 150px;
+        height: 20rem;
         }
 
-    .trapezoid {
-        display: none;
-        }
+    #currentLink, #teamLink, #pastLink, #workLink {
+        text-align: center;
+        padding-top: 1.5rem;
+        margin-left: 4rem;
+        color: #000;
+        background: transparent;
+    }
+
+
+
+    #theDiv {
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+        width: 100%;
+        margin-top: -2%;
+        background-color: white;
+        text-align: left;
+        padding-top: 0.5rem;
+        padding-bottom: .5rem;
+        word-spacing: 0.25rem;
+        letter-spacing: 2px;
+    }
     
     #hero {
         position: static;
