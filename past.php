@@ -86,11 +86,10 @@
             </div>
         </div>
     </div>
-
-    <div id="footer">
-        <p>Copyright © 2018 GLIDE Lab. All rights reserved</p>
-    </div> 
     </div>      
+</div> 
+<div id="footer">
+<p>Copyright © 2018 GLIDE Lab. All rights reserved</p>
 </div> 
 <script src="js/jquery-3.3.1.js" type="text/javascript"></script> 
 <script src="main.js"></script>

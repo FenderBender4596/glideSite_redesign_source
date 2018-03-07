@@ -53,12 +53,11 @@
             <h2 class="projPageCurrent">Title</h2>
             <a href="past.php"><img src="http://via.placeholder.com/350x550"></a>
         </div>
-    </div>
-
-    <div id="footer">
-        <p>Copyright © 2018 GLIDE Lab. All rights reserved</p>
-    </div>  
+    </div> 
     </div>      
+</div> 
+<div id="footer">
+<p>Copyright © 2018 GLIDE Lab. All rights reserved</p>
 </div> 
 <script src="js/jquery-3.3.1.js" type="text/javascript"></script> 
 <script src="main.js"></script>

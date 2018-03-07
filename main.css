@@ -113,7 +113,7 @@
     padding-left: 4.5rem;
     padding-right: 5rem;
     width: 100%;
-    margin-bottom: 0%;
+    margin-bottom: -8rem;
 }
 
 #visual_menu a {
@@ -243,10 +243,11 @@ grid-auto-rows: minmax(100px, auto);
 }
 
 #headbox {
-    background: rgba(0,3,127, .90);
     color: white;
-    padding-left: 5%;
-    margin-top: 50px;
+    padding-left: 3rem;
+    padding-top: 0.2rem;
+    padding-bottom: .25rem;
+    margin-top: 3rem;
 }
 
 #project1 img {
@@ -314,13 +315,12 @@ grid-auto-rows: minmax(100px, auto);
 
 /*Footer CSS*/
 #footer{
-    position: absolute;
+    position: fixed;
     width: 100%;
     background-color: rgb(0,3,127);
     color: white;
     text-align: center;
-    margin-bottom: 0;
-    margin-top: 10%;
+    bottom: 0;
     }
 
 /*Animation CSS*/
@@ -330,6 +330,12 @@ grid-auto-rows: minmax(100px, auto);
     }
 
 /*Media Queries*/
+
+@media screen and (min-width: 1440px) {
+    #visual_menu {
+        padding-left: 12.5rem;
+    }
+}
 
 @media screen and (min-width: 1210px) {
     #visual_menu {
@@ -345,6 +351,10 @@ grid-auto-rows: minmax(100px, auto);
 }
 
 @media screen and (orientation:portrait) {
+    #main {
+        margin-bottom: 3rem;
+    }
+
     /*Mobile Menu CSS*/
 
     .web_logo {

@@ -50,12 +50,11 @@
     <a href="https://www.facebook.com/Drexel.Learning.Games.Network/"><img src="images/facebook.png" alt="facebook_link"></a>
     <a href="https://vimeo.com/user31595989"><img src="images/vimeo.png" alt="vimeo_link"></a>
     </div>
-     
-
-    <div id="footer">
-        <p>Copyright © 2018 GLIDE Lab. All rights reserved</p>
-    </div> 
+      
     </div>       
+</div> 
+<div id="footer">
+<p>Copyright © 2018 GLIDE Lab. All rights reserved</p>
 </div> 
 <script src="js/jquery-3.3.1.js" type="text/javascript"></script> 
 <script src="main.js"></script>

@@ -63,13 +63,11 @@
     be about what this company represents, and what we do at glide that makes us unique and special. Maybe a quote from
     Doctor Foster's papers mayhaps, or something here that we could stylize it and make an image of it in this box.</p>
     </div>
-
-     
-
-    <div id="footer">
-        <p>Copyright © 2018 GLIDE Lab. All rights reserved</p>
+ 
     </div> 
-    </div> 
+</div> 
+<div id="footer">
+<p>Copyright © 2018 GLIDE Lab. All rights reserved</p>
 </div> 
 <script src="js/jquery-3.3.1.js" type="text/javascript"></script> 
 <script src="main.js"></script>
