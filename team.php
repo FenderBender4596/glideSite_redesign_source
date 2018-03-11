@@ -17,7 +17,6 @@
     <div id="logo">
      <a id="home" class="web_logo" href="index.php"><img src="images/glide_logo_blue.png"></a>
      <img class="mobile_logo"src="images/header_png.png">
-     <div class="trapezoid"></div>
     </div>
         <div class="head_menu">
         <a href="about.php">About</a>
@@ -31,8 +30,7 @@
         <li><a href="index.php">Home</a></li>
         <li><a href="about.php">About</a></li>
         <li><a href="publiactions.php">Publications</a></li>
-        <li><a href="current.php">Current</a></li>
-        <li><a href="past.php">Past</a></li>
+        <li><a href="projects.php">Projects</a></li>
         <li><a href="team.php">Current</a></li>
         <li><a href="withUs.php">Work With Us</a></li>
         <li><a href="contact.php">Contact</a></li>

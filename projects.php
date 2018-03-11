@@ -12,12 +12,10 @@
 <body>
 <div id="wrapper">
     <div id="main">
-
     <div id="header">
     <div id="logo">
      <a id="home" class="web_logo" href="index.php"><img src="images/glide_logo_blue.png"></a>
      <img class="mobile_logo"src="images/header_png.png">
-     <div class="trapezoid"></div>
     </div>
         <div class="head_menu">
         <a href="about.php">About</a>
@@ -31,8 +29,7 @@
         <li><a href="index.php">Home</a></li>
         <li><a href="about.php">About</a></li>
         <li><a href="publiactions.php">Publications</a></li>
-        <li><a href="current.php">Current</a></li>
-        <li><a href="past.php">Past</a></li>
+        <li><a href="projects.php">Projects</a></li>
         <li><a href="team.php">Current</a></li>
         <li><a href="withUs.php">Work With Us</a></li>
         <li><a href="contact.php">Contact</a></li>
@@ -41,17 +38,25 @@
     </div>
 
    <div id="headbox">
-   <h1>Past Projects</h1>
+   <h1>Projects</h1>
    </div>
 
    <div id="projPageBox">
-        <div id="pastLink">
-            <h2 class="projPagePast">Title</h2>
-            <a href="current.php"><img src="http://via.placeholder.com/350x550"></a>
+        <div id="pastBox">
+            <h2 class="projPagePast">Past</h2>
+            <a href="current.php"><img src="http://via.placeholder.com/450x450"></a>
         </div>
-        <div id="currentLink">
-            <h2 class="projPageCurrent">Title</h2>
-            <a href="past.php"><img src="http://via.placeholder.com/350x550"></a>
+        <div id="pastBoxMobile">
+            <a href="current.php"><img src="http://via.placeholder.com/350x150"></a>
+            <h2 class="projPagePastMobile">Past</h2>
+        </div>
+        <div id="currentBox">
+            <h2 class="projPageCurrent">Current</h2>
+            <a href="past.php"><img src="http://via.placeholder.com/450x450"></a>
+        </div>
+        <div id="currentBoxMobile">
+            <a href="past.php"><img src="http://via.placeholder.com/350x150"></a>
+            <h2 class="projPageCurrentMobile">Current</h2>
         </div>
     </div> 
     </div>      

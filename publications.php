@@ -18,7 +18,6 @@
     <div id="logo">
      <a id="home" class="web_logo" href="index.php"><img src="images/glide_logo_blue.png"></a>
      <img class="mobile_logo"src="images/header_png.png">
-     <div class="trapezoid"></div>
     </div>
         <div class="head_menu">
         <a href="about.php">About</a>
@@ -32,39 +31,33 @@
         <li><a href="index.php">Home</a></li>
         <li><a href="about.php">About</a></li>
         <li><a href="publiactions.php">Publications</a></li>
-        <li><a href="current.php">Current</a></li>
-        <li><a href="past.php">Past</a></li>
+        <li><a href="projects.php">Projects</a></li>
         <li><a href="team.php">Current</a></li>
         <li><a href="withUs.php">Work With Us</a></li>
         <li><a href="contact.php">Contact</a></li>
         </ul>
     </div>
     </div>
-
-    <img id="hero" src="http://via.placeholder.com/350x150">
-
+    
     <div id="pagebox">
     <h1>Publications</h1>
     </div>
-
-    <div id="readBox">
-    <p>"this would be an overview of our message at glide, and the very first thing that people would read. It has to
-    be about what this company represents, and what we do at glide that makes us unique and special. Maybe a quote from
-    Doctor Foster's papers mayhaps, or something here that we could stylize it and make an image of it in this box.</p>
-
-    <p>"this would be an overview of our message at glide, and the very first thing that people would read. It has to
-    be about what this company represents, and what we do at glide that makes us unique and special. Maybe a quote from
-    Doctor Foster's papers mayhaps, or something here that we could stylize it and make an image of it in this box.</p>
-
-    <p>"this would be an overview of our message at glide, and the very first thing that people would read. It has to
-    be about what this company represents, and what we do at glide that makes us unique and special. Maybe a quote from
-    Doctor Foster's papers mayhaps, or something here that we could stylize it and make an image of it in this box.</p>
-
-    <p>"this would be an overview of our message at glide, and the very first thing that people would read. It has to
-    be about what this company represents, and what we do at glide that makes us unique and special. Maybe a quote from
-    Doctor Foster's papers mayhaps, or something here that we could stylize it and make an image of it in this box.</p>
-    </div>
-  
+<div id="pubBox">
+    <img id="heroWeb" src="http://via.placeholder.com/250x450" alt="">
+    <img id="heroMobile" src="http://via.placeholder.com/350x150">
+    <ul id="pubList">
+        <li><a href="publications.php">Article Title</a></li>
+        <li><a href="publications.php">Article Title</a></li>
+        <li><a href="publications.php">Article Title</a></li>
+        <li><a href="publications.php">Article Title</a></li>
+        <li><a href="publications.php">Article Title</a></li>
+        <li><a href="publications.php">Article Title</a></li>
+        <li><a href="publications.php">Article Title</a></li>
+        <li><a href="publications.php">Article Title</a></li>
+        <li><a href="publications.php">Article Title</a></li>
+    </ul>
+</div>
+    
     </div> 
 </div> 
 <div id="footer">

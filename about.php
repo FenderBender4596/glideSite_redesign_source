@@ -17,7 +17,6 @@
     <div id="logo">
      <a id="home" class="web_logo" href="index.php"><img src="images/glide_logo_blue.png"></a>
      <img class="mobile_logo"src="images/header_png.png">
-     <div class="trapezoid"></div>
     </div>
         <div class="head_menu">
         <a href="about.php">About</a>
@@ -31,8 +30,7 @@
         <li><a href="index.php">Home</a></li>
         <li><a href="about.php">About</a></li>
         <li><a href="publiactions.php">Publications</a></li>
-        <li><a href="current.php">Current</a></li>
-        <li><a href="past.php">Past</a></li>
+        <li><a href="projects.php">Projects</a></li>
         <li><a href="team.php">Current</a></li>
         <li><a href="withUs.php">Work With Us</a></li>
         <li><a href="contact.php">Contact</a></li>
@@ -40,13 +38,17 @@
     </div>
     </div>
 
-    <img id="hero" src="http://via.placeholder.com/350x150">
-
-    <div id="pagebox">
+    <div id="aboutBoxWeb">
     <h1>About Glide</h1>
     </div>
 
-    <div id="readBox">
+    <img id="hero" src="http://via.placeholder.com/350x150">
+
+    <div id="aboutBoxMobile">
+    <h1>About Glide</h1>
+    </div>
+
+    <div id="readAboutBox">
     <p>"this would be an overview of our message at glide, and the very first thing that people would read. It has to
     be about what this company represents, and what we do at glide that makes us unique and special. Maybe a quote from
     Doctor Foster's papers mayhaps, or something here that we could stylize it and make an image of it in this box.</p>
@@ -54,6 +56,8 @@
     <p>"this would be an overview of our message at glide, and the very first thing that people would read. It has to
     be about what this company represents, and what we do at glide that makes us unique and special. Maybe a quote from
     Doctor Foster's papers mayhaps, or something here that we could stylize it and make an image of it in this box.</p>
+
+    <img id="diaGram" src="http://via.placeholder.com/350x150">
 
     <p>"this would be an overview of our message at glide, and the very first thing that people would read. It has to
     be about what this company represents, and what we do at glide that makes us unique and special. Maybe a quote from

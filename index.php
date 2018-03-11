@@ -46,14 +46,14 @@
 <g id="Layer_1_1_">
        <rect id="square1" x="113.831" y="70.501" transform="matrix(-0.7071 0.7071 -0.7071 -0.7071 420.4095 112.8607)" fill="none" stroke="#4665F9" stroke-width="2" stroke-miterlimit="10" width="145.998" height="145.998"/>
        <rect id="square2" x="228.83" y="71.502" transform="matrix(-0.7071 0.7071 -0.7071 -0.7071 617.4341 33.2533)" opacity="0.77" fill="none" stroke="#00037F" stroke-width="2" stroke-miterlimit="10" enable-background="new    " width="145.999" height="145.999"/>
-   <polygon id="Arrow1" fill="#FFFFFF" points="137.278,70.82 174.792,52.294 155.157,88.7 156.34,70.745 	"/>
-   <polygon id="Arrow2" fill="#FFFFFF" points="239.176,213.68 201.662,232.206 221.297,195.801 220.113,213.756 	"/>
-   <polygon id="Arrow3" fill="#FFFFFF" points="116.295,195.699 97.769,158.186 134.174,177.82 116.219,176.637 	"/>
-   <polygon id="Arrow4" fill="#FFFFFF" points="261.157,95.8 279.683,133.314 243.277,113.68 261.232,114.863 	"/>
-   <polygon id="Arrow5" fill="#FFFFFF" points="228.298,192.7 209.771,155.188 246.176,174.82 228.222,173.639 	"/>
-   <polygon id="Arrow6" fill="#FFFFFF" points="350.176,218.682 312.663,237.207 332.297,200.802 331.114,218.757 	"/>
-   <polygon id="Arrow7" fill="#FFFFFF" points="250.278,73.821 287.792,55.295 268.157,91.7 269.34,73.745 	"/>
-   <polygon id="Arrow8" fill="#FFFFFF" points="374.157,94.802 392.684,132.315 356.278,112.68 374.233,113.864 	"/>
+   <polygon id="Arrow1" fill="#000" points="137.278,70.82 174.792,52.294 155.157,88.7 156.34,70.745 	"/>
+   <polygon id="Arrow2" fill="##000" points="239.176,213.68 201.662,232.206 221.297,195.801 220.113,213.756 	"/>
+   <polygon id="Arrow3" fill="#000F" points="116.295,195.699 97.769,158.186 134.174,177.82 116.219,176.637 	"/>
+   <polygon id="Arrow4" fill="#000" points="261.157,95.8 279.683,133.314 243.277,113.68 261.232,114.863 	"/>
+   <polygon id="Arrow5" fill="#fff" points="228.298,192.7 209.771,155.188 246.176,174.82 228.222,173.639 	"/>
+   <polygon id="Arrow6" fill="#fff" points="350.176,218.682 312.663,237.207 332.297,200.802 331.114,218.757 	"/>
+   <polygon id="Arrow7" fill="#fff" points="250.278,73.821 287.792,55.295 268.157,91.7 269.34,73.745 	"/>
+   <polygon id="Arrow8" fill="#fff" points="374.157,94.802 392.684,132.315 356.278,112.68 374.233,113.864 	"/>
    <text transform="matrix(1 0 0 1 178.333 35.5)" font-family="'Lato-LightItalic'" font-size="12">Play</text>
    <text transform="matrix(1 0 0 1 284.8325 36)" font-family="'Lato-LightItalic'" font-size="12">Inquiry</text>
    <text transform="matrix(1 0 0 1 271.8325 258)" font-family="'Lato-LightItalic'" font-size="12">Construction</text>
