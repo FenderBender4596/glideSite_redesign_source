@@ -28,7 +28,7 @@
         <ul class="mobile-dropdown">
         <li><a href="index.php">Home</a></li>
         <li><a href="about.php">About</a></li>
-        <li><a href="publiactions.php">Publications</a></li>
+        <li><a href="publications.php">Publications</a></li>
         <li><a href="projects.php">Projects</a></li>
         <li><a href="team.php">Current</a></li>
         <li><a href="withUs.php">Work With Us</a></li>

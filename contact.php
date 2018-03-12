@@ -29,7 +29,7 @@
         <ul class="mobile-dropdown">
         <li><a href="index.php">Home</a></li>
         <li><a href="about.php">About</a></li>
-        <li><a href="publiactions.php">Publications</a></li>
+        <li><a href="publications.php">Publications</a></li>
         <li><a href="projects.php">Projects</a></li>
         <li><a href="team.php">Current</a></li>
         <li><a href="withUs.php">Work With Us</a></li>
@@ -38,15 +38,13 @@
     </div>
     </div>
 
-    <div id="pagebox">
+    <div id="contactBox">
     <h1>Contact</h1>
     </div>
 
-    <div id="social links">
+    <div id="social_links">
     <a href="home.php">Aroutis Foster</a>
     <a href="home.php">Glide Email</a>
-    <a href="https://www.facebook.com/Drexel.Learning.Games.Network/"><img src="images/facebook.png" alt="facebook_link"></a>
-    <a href="https://vimeo.com/user31595989"><img src="images/vimeo.png" alt="vimeo_link"></a>
     </div>
       
     </div>       

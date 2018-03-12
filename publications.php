@@ -30,7 +30,7 @@
         <ul class="mobile-dropdown">
         <li><a href="index.php">Home</a></li>
         <li><a href="about.php">About</a></li>
-        <li><a href="publiactions.php">Publications</a></li>
+        <li><a href="publications.php">Publications</a></li>
         <li><a href="projects.php">Projects</a></li>
         <li><a href="team.php">Current</a></li>
         <li><a href="withUs.php">Work With Us</a></li>
@@ -38,14 +38,16 @@
         </ul>
     </div>
     </div>
-    
-    <div id="pagebox">
+
+    <div id="pubHead">
     <h1>Publications</h1>
     </div>
-<div id="pubBox">
-    <img id="heroWeb" src="http://via.placeholder.com/250x450" alt="">
-    <img id="heroMobile" src="http://via.placeholder.com/350x150">
-    <ul id="pubList">
+
+    <div id="pubBox">
+    <img id="pubHero" src="http://via.placeholder.com/350x450">
+    <div id="pubList">
+    <p>here are some articles published by Doctor Foster and Mamta Shah</p>
+    <ul>
         <li><a href="publications.php">Article Title</a></li>
         <li><a href="publications.php">Article Title</a></li>
         <li><a href="publications.php">Article Title</a></li>
@@ -56,6 +58,7 @@
         <li><a href="publications.php">Article Title</a></li>
         <li><a href="publications.php">Article Title</a></li>
     </ul>
+    </div>
 </div>
     
     </div> 
