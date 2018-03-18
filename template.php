@@ -45,11 +45,26 @@
     <div id="templatePage">
 
     <div id="templatePicWeb">
-    <img src="http://via.placeholder.com/250x450">
+    <img src="http://via.placeholder.com/350x350">
     </div>
 
     <div id="templatePicPhone">
-    <img src="http://via.placeholder.com/350x150">
+    <img src="http://via.placeholder.com/250x250">
+    </div>
+
+    <div id="templateInfo">
+    <?php
+    $person = [
+    "first_name" => "Homer",
+    "last_name" => "Simpson",
+    "address" => "742 Evergreen Terrace",
+    "city" => "Springfield"
+    ];
+    foreach ($person as $attribute => $data) {
+    $attr_nice = ucwords(str_replace("_", " ", $attribute));
+    echo "<b>{$attr_nice}</b>: {$data}<br>";
+    }
+    ?>
     </div>
 
     <div id="templateDesc">

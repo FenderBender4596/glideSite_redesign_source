@@ -451,23 +451,38 @@ grid-auto-rows: minmax(100px, auto);
 }
 
 #projPageCont {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 1rem;
-    grid-auto-rows: minmax(10rem, auto);
-    /* margin: 1rem; */
-    /* margin-top: 1rem; */
-    margin-left: 1rem;
-    margin-right: 1rem;
-    /* margin-bottom: 4rem; */
-    padding-left: 5rem;
-    padding-right: 0rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    /* grid-gap: 1rem; */
+    /* grid-auto-rows: minmax(10rem, auto); */
+    margin: 1rem;
+    margin-top: 1rem;
+    /* margin-left: 20rem; */
+    margin-right: 20rem;
+    margin-bottom: 4rem;
+    padding-left: 8rem;
+
     /* padding-bottom: 2162rem; */
 }
 
 /* template_project CSS */
 
 #templateTitle {
+    color: white;
+    padding-left: 3rem;
+    padding-top: 0.2rem;
+    padding-bottom: .25rem;
+    margin-top: 3rem;
+    background: rgba(0,3,127, .90);
+}
+
+#templateTitle h1 {
+    font-size: 1.5em;
+}
+
+/* #templateTitle {
     margin-top: 5%;
     background: rgba(0,3,127, .90);
     width: 100%;
@@ -493,10 +508,6 @@ grid-auto-rows: minmax(100px, auto);
     width: 50%;
 }
 
-#templatePicPhone {
-    display: none;
-}
-
 #templateDesc {
     margin: 5%;
     background-color: rgba(204, 204, 204, 0.8);
@@ -504,6 +515,30 @@ grid-auto-rows: minmax(100px, auto);
     border-radius: 15px;
     margin-left: 50%;
     margin-right: 2%;
+} */
+
+#templatePage {
+    display: flex;
+    width: 100%;
+    flex-flow: row-reverse;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+#templatePicPhone {
+    display: none;
+}
+
+#templateDesc {
+    margin: 0.5rem;
+    font-size: 1em;
+}
+
+#templateInfo {
+    position: absolute;
+    top: 30.5rem;
+    left: 48rem;
+    text-align: right;
 }
 
 /* about page CSS */
@@ -799,7 +834,7 @@ grid-auto-rows: minmax(100px, auto);
     }
     
 
-    #templateTitle { 
+    /* #templateTitle { 
         margin-top: 25%;
     }  
     
@@ -826,7 +861,7 @@ grid-auto-rows: minmax(100px, auto);
 
     #templatePicPhone img {
         width: 100%;
-    }
+    } */
 
     #directory {
         grid-template-columns: repeat(2, 2fr);
