@@ -14,7 +14,7 @@
     <div id="main">
     <div id="header">
     <div id="logo">
-     <a id="home" class="web_logo" href="index.php"><img src="images/glide_logo_blue.png"></a>
+    <a id="home" class="web_logo" href="index.php"><img src="images/glide_logo2.png"></a>
      <img class="mobile_logo"src="images/header_png.png">
     </div>
         <div class="head_menu">

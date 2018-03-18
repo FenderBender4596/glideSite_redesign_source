@@ -15,7 +15,7 @@
 
     <div id="header">
     <div id="logo">
-     <a id="home" class="web_logo" href="index.php"><img src="images/glide_logo_blue.png"></a>
+    <a id="home" class="web_logo" href="index.php"><img src="images/glide_logo2.png"></a>
      <img class="mobile_logo"src="images/header_png.png">
     </div>
         <div class="head_menu">
@@ -44,7 +44,9 @@
 
     <div id="social_links">
     <a href="home.php">Aroutis Foster</a>
+    <img class="aroutis" src="images/aroutis_icon.png" alt="aroutis">
     <a href="home.php">Glide Email</a>
+    <img class="email" src="images/email_icon.png" alt="email">
     </div>
       
     </div>       
