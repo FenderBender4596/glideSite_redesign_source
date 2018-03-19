@@ -48,9 +48,9 @@
     <img src="http://via.placeholder.com/350x350">
     </div>
 
-    <div id="templatePicPhone">
+    <!-- <div id="templatePicPhone">
     <img src="http://via.placeholder.com/250x250">
-    </div>
+    </div> -->
 
     <div id="templateInfo">
     <?php
@@ -88,9 +88,9 @@
       
     </div> 
 </div> 
-<div id="footer">
+<!-- <div id="footer">
 <p>Copyright © 2018 GLIDE Lab. All rights reserved</p>
-</div> 
+</div>  -->
 <script src="js/jquery-3.3.1.js" type="text/javascript"></script> 
 <script src="main.js"></script>
 </body>

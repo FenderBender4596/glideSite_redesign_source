@@ -15,8 +15,12 @@
 
 <div id="header">
     <div id="logo">
-     <a id="home" class="web_logo" href="index.php"><img src="images/glide_logo2.png"></a>
-     <img class="mobile_logo"src="images/header_png.png">
+     <a id="home" class="web_logo" href="index.php"> 
+     <object class="header_logo" data="images/header_logo.svg" type="image/svg+xml">
+		<img src="images/header_logo.png" alt="logo">
+	 </object>
+     </a>
+     <img class="mobile_logo"src="images/mobile_logo_header.png">
     </div>
         <div class="head_menu">
         <a href="about.php">About</a>
@@ -89,9 +93,9 @@
 
     </div>     
 </div>
-<div id="footer">
+<!-- <div id="footer">
 <p>Copyright © 2018 GLIDE Lab. All rights reserved</p>
-</div> 
+</div>  -->
 <script src="js/jquery-3.3.1.js" type="text/javascript"></script> 
 <script src="main.js"></script>
 </body>

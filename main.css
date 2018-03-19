@@ -205,6 +205,11 @@
     text-decoration: none;
 }
 
+#visual_menu img {
+    width: 85%;
+    margin-left: 2.5rem;
+}
+
 
 #currentLink, #teamLink, #pastLink, #workLink {
     margin-top: -0.3rem;
@@ -284,8 +289,8 @@
 #pubHead {
     width: 100%;
     color: white;
-    background-color: rgba(0,3,127, .70);
-    margin-top: 3rem;
+    background-color: rgba(0,3,127, .90);
+    margin-top: 4.5rem;
     color: white;
     padding-left: 1rem;
     padding-top: 0.2rem;
@@ -370,7 +375,7 @@
 
 #contactBox {
     width: 100%;
-    background-color: rgba(0,3,127, .70);
+    background-color: rgba(0,3,127, .90);
     margin-top: 4.5rem;
     color: white;
     padding-left: 1rem;
@@ -442,7 +447,7 @@ grid-auto-rows: minmax(100px, auto);
     padding-left: 3rem;
     padding-top: 0.2rem;
     padding-bottom: .25rem;
-    margin-top: 3rem;
+    margin-top: 4.5rem;
     background: rgba(0,3,127, .90);
 }
 
@@ -474,7 +479,7 @@ grid-auto-rows: minmax(100px, auto);
     padding-left: 3rem;
     padding-top: 0.2rem;
     padding-bottom: .25rem;
-    margin-top: 3rem;
+    margin-top: 4.5rem;
     background: rgba(0,3,127, .90);
 }
 
@@ -525,20 +530,31 @@ grid-auto-rows: minmax(100px, auto);
     padding: 1rem;
 }
 
-#templatePicPhone {
-    display: none;
-}
-
 #templateDesc {
     margin: 0.5rem;
     font-size: 1em;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    background: white;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-top: 0rem;
+    border-radius: 1rem;
 }
 
 #templateInfo {
-    position: absolute;
-    top: 30.5rem;
-    left: 48rem;
-    text-align: right;
+   position: absolute;
+    top: 33.5rem;
+    right: 5.5rem;
+    width: 27.5%;
+    text-align: left;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    border-radius: 1.5rem;
+    color: white;
+    background: rgb(0,3,127);
 }
 
 /* about page CSS */
@@ -547,7 +563,7 @@ grid-auto-rows: minmax(100px, auto);
     background: rgba(0,3,127, .90);
     color: white;
     padding: .5rem;
-    margin-top: 3rem;
+    margin-top: 4.5rem;
     
 }
 
@@ -808,6 +824,7 @@ grid-auto-rows: minmax(100px, auto);
     #visual_menu img{
         width: 100%;
         height: 20rem;
+        margin-left: 0rem;
         }
 
     #currentLink, #teamLink, #pastLink, #workLink {
@@ -1042,7 +1059,61 @@ grid-auto-rows: minmax(100px, auto);
         text-decoration: none;
         color: black;
     }
+
+    #templateTitle {
+        color: white;
+        /* padding-left: 3rem; */
+        padding-top: 0.2rem;
+        padding-bottom: .25rem;
+        padding-right: 1rem;
+        text-align: center;
+        margin-top: 6rem;
+        background: rgba(0,3,127, .90)
+    }
+
+    #templatePage {
+        display: flex;
+        width: 100%;
+        flex-flow: column;
+        margin: 0 auto;
+        padding: 1rem;
+    }
+
+    #templatePicWeb {
+
+    }
+
+    /* #templatePicMobile {
+        margin-left: 3rem;
+        margin-right: 3rem;
+        display: block;
+    } */
+
+    /* #templatePicPhone {
+        margin-left: 3rem;
+        margin-right: 3rem;
+    } */
+
+    #templateInfo {
+        position: absolute;
+        top: 24.5rem;
+        left: 2.5rem;
+        text-align: center;
+        background-color: rgba(0,3,127, .90);
+        color: white;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        border-radius: 1.5rem;
+        margin-top: 9.3rem;
+        width: 80%;
+    }
     
+    #templateDesc {
+        margin: 0.5rem;
+        margin-top: 7rem;
+        font-size: 1em;
+    }
+
     #footer {
         margin-bottom: 0;
         margin-top: 10%;

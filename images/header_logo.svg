@@ -1,0 +1,21 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="285.334px" height="75px" viewBox="0 0 285.334 75" enable-background="new 0 0 285.334 75" xml:space="preserve">
+<g id="logo_x5F_background">
+	<polygon fill="#999ACC" points="127,17 242.575,17 283.984,75 127,75 	"/>
+	<polygon fill="#6668B2" points="57,8 193.196,8 242,75 57,75 	"/>
+	<polygon fill="#333599" points="0,0 136.196,0 185,75 0,75 	"/>
+</g>
+<g id="logo_x5F_image">
+	<polygon fill="#F7F7F7" points="54.305,2 186.007,33.003 41.842,70.55 	"/>
+	<polygon fill="#94C7F2" points="44.902,10.6 204.803,32.614 34.908,72.342 	"/>
+	<polygon fill="#0B77F9" points="37.352,21.602 29.762,30.285 37.523,30.285 178.656,30.481 179.175,21.513 	"/>
+	<polygon fill="#0B77F9" points="26.913,33.315 18.87,42.092 27.095,42.092 176.579,42.176 177.481,33.315 	"/>
+	<polygon fill="#0B77F9" points="16.34,45.069 7.739,54.53 16.534,54.53 176.604,54.745 177.96,45.069 	"/>
+	<rect x="18.55" y="20.433" fill="none" width="168.977" height="42.91"/>
+	
+		<text transform="matrix(1 0 0 1 29.7065 54.833)" fill="#333333" font-family="'Muli-BoldItalic'" font-size="46.7384" letter-spacing="2">GLIDE</text>
+	<rect x="22.766" y="20.433" fill="none" width="166.864" height="42.91"/>
+	
+		<text transform="matrix(1 0 0 1 32.8662 54.833)" fill="#FFFFFF" font-family="'Muli-BoldItalic'" font-size="46.7384" letter-spacing="2">GLIDE</text>
+</g>
+</svg>
