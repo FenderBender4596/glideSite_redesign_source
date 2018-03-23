@@ -223,66 +223,70 @@
 }
 
 /*directory CSS*/
-#currentHead {
+
+#directoryHead {
+    width: 100%;
+    color: white;
+    background-color: rgba(0,3,127, .90);
+    margin-top: 4.5rem;
+    color: white;
+    padding-left: 1rem;
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+}
+
+#directoryHead h1 {
+    font-size: 1.45em;
+}
+
+#currentHead, #pastHead {
     margin: 0 auto;
-    margin-left: 5%;
     margin-top: 4%;
     }
 
-#pastHead {
-    margin: 0 auto;
-    margin-left: 5%;
-    }
+#currentHead, #pastHead h2 {
+    text-align: center;
+    color: white;
+    background-color: rgba(0,3,127, .90);
+    /* padding: 0; */
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-left: 25rem;
+    margin-right: 25rem;
+    border-radius: 5rem;
+}
 
 #directory {
-    display: grid;
-    grid-template-columns: repeat(4, 3fr);
-    grid-row-gap: 10px;
-    grid-column-gap: 10px;
-    grid-auto-rows: minmax(100px, auto);
-    padding-left: 18%;
-    width: 100%;
-    margin-bottom: 5%;
-    background-color: rgba(0,3,127, .90);
-    }
-
-.square:hover a{
-    animation-name: spin;
-      animation-duration: 400ms;
-      animation-timing-function: ease;
-      animation-delay: 100ms;
-      animation-iteration-count: 1;
-      animation-direction: linear;
-      transform-origin: 50% 50%;
-    animation-fill-mode: forwards;
-    }
-
-.square img:hover {
-    animation-name: spin;
-      animation-duration: 400ms;
-      animation-timing-function: ease;
-      animation-delay: 100ms;
-      animation-iteration-count: 1;
-      animation-direction: linear;
-      transform-origin: 50% 50%;
-    animation-fill-mode: forwards;
-  }
-  
-  .change {
-      fill: blue;
-  }
-
-/* old about CSS*/
-
-/* #readBox {
     margin: 0 auto;
-    background-color: rgba(204, 204, 204, 0.8);
-    margin-left: 10%;
-    margin-right: 10%;
-    padding-left: 10%;
-    padding-right: 10%;
-    border-radius: 15px;
-}  */
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+    padding-left: 3.5rem;
+}
+
+.team_member {
+    margin-left: 1rem;
+    padding: 1rem;
+}
+
+.team_member a {
+    text-decoration: none;
+    color: black;
+}
+
+#thumbnail {
+    width: 75%;
+}
+
+#memberInfo {
+    margin-left: 2.5rem;
+}
+
+#memberInfo h2 {
+    font-size: 1.15em;
+}
 
 /* publications CSS */
 
@@ -301,28 +305,16 @@
     font-size: 1.45em;
 }
 
-#pubHero {
-    position: static;
-    width: 45%;
-    padding: 1rem;
-    margin-left: 1rem;
-    margin-bottom: 3rem;;
-}
-
-#pubHero img {
-    width: 100%;
-}
-
 #pubBox {
-    display: flex;
+    /* display: flex;
     flex-direction: column-reverse;
     flex-wrap: wrap-reverse;
-    padding: 1rem;
+    padding: 1rem; */
     width: 100%;
-    height: 78vh;
+    /* height: 78vh;
     background-color: rgba(235, 232, 230, 0.7);
     align-content: center;
-    margin: 1rem;
+    margin: 1rem; */
 }
 
 #pubList {
@@ -332,9 +324,9 @@
 
 #pubList ul {
     list-style-type: none;
-    height: 65vh;
-    display: grid;
-    padding-right: 3rem;
+    padding-right: 1.5rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
 }
 
 #pubList li {
@@ -344,6 +336,7 @@
     background-color: #f7f7f7;
     border: none;
     padding-left: 1rem;
+    padding-right: 1rem;
 }
 
 #publist a {
@@ -591,8 +584,8 @@ grid-auto-rows: minmax(100px, auto);
     position: static;
     width: 100%;
     padding: 1rem;
-    padding-right: 8rem;
-    padding-left: 8rem;
+    padding-right: 4rem;
+    padding-left: 4rem;
     margin-top: 0rem;
     }
 
@@ -618,10 +611,10 @@ grid-auto-rows: minmax(100px, auto);
     }
 
 /*Animation CSS*/
-@keyframes spin {
+/* @keyframes spin {
    0% {transform: rotate(0deg);}
       100% {transform: rotate(-45deg);}
-    }
+    } */
 
     @keyframes blink1 {
         50% {
@@ -1010,30 +1003,30 @@ grid-auto-rows: minmax(100px, auto);
         margin-top: 6rem;
     }
 
-    #pubBox {
+    /* #pubBox {
         display: flex;
         flex-direction: row-reverse;
         flex-wrap: wrap;
         padding: 1rem;
-        width: 100%;
+        width: 95%;
         height: 78vh;
         background-color: rgba(235, 232, 230, 0.7);
         align-content: center;
-    }
+    } */
 
-    #pubHero {
+    /* #pubHero {
         position: static;
         width: 100%;
         padding: 1rem;
-        margin-top: 30rem;
-        margin-right: 1rem;
+        margin-top: 20rem;
+        margin-right: 0.5rem;
         margin-bottom: 2rem;
-    }
+    } */
 
     #pubList {
         background-color: white;
         margin-left: -1rem;
-        margin-right: 1rem;
+        margin-right: 0rem;
         margin-top: -3rem;
     }
 

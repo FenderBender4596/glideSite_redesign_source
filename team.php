@@ -42,7 +42,7 @@
     </div>
     </div>
 
-    <div id="pagebox">
+    <div id="directoryHead">
     <h1>The Team</h1>
     </div>
 
@@ -51,18 +51,54 @@
     </div>
 
     <div id="directory">
-    <div class="thumbnail"><a class="square" href="template.php"><img src="http://via.placeholder.com/100x100"></a></div>
-    <div class="thumbnail"><a class="square" href="template.php"><img src="http://via.placeholder.com/100x100"></a></div>
-    <div class="thumbnail"><a class="square" href="template.php"><img src="http://via.placeholder.com/100x100"></a></div>
-    <div class="thumbnail"><a class="square" href="template.php"><img src="http://via.placeholder.com/100x100"></a></div>
-    <div class="thumbnail"><a class="square" href="template.php"><img src="http://via.placeholder.com/100x100"></a></div>
-    <div class="thumbnail"><a class="square" href="template.php"><img src="http://via.placeholder.com/100x100"></a></div>
-    <div class="thumbnail"><a class="square" href="template.php"><img src="http://via.placeholder.com/100x100"></a></div>
-    <div class="thumbnail"><a class="square" href="template.php"><img src="http://via.placeholder.com/100x100"></a></div>
-    <div class="thumbnail"><a class="square" href="template.php"><img src="http://via.placeholder.com/100x100"></a></div>
-    <div class="thumbnail"><a class="square" href="template.php"><img src="http://via.placeholder.com/100x100"></a></div>
-    <div class="thumbnail"><a class="square" href="template.php"><img src="http://via.placeholder.com/100x100"></a></div>
-    <div class="thumbnail"><a class="square" href="template.php"><img src="http://via.placeholder.com/100x100"></a></div>
+    <div class="team_member"> 
+    <a href="template.php">
+    <img id="thumbnail" src="http://via.placeholder.com/250x250" alt="">
+        <div id="memberInfo">
+        <h2>Member Name</h2>
+        </div>
+    </a>
+    </div>
+    <div class="team_member"> 
+    <a href="template.php">
+    <img id="thumbnail" src="http://via.placeholder.com/250x250" alt="">
+        <div id="memberInfo">
+        <h2>Member Name</h2>
+        </div>
+    </a>
+    </div>
+    <div class="team_member"> 
+    <a href="template.php">
+    <img id="thumbnail" src="http://via.placeholder.com/250x250" alt="">
+        <div id="memberInfo">
+        <h2>Member Name</h2>
+        </div>
+    </a>
+    </div>
+    <div class="team_member"> 
+    <a href="template.php">
+    <img id="thumbnail" src="http://via.placeholder.com/250x250" alt="">
+        <div id="memberInfo">
+        <h2>Member Name</h2>
+        </div>
+    </a>
+    </div>
+    <div class="team_member"> 
+    <a href="template.php">
+    <img id="thumbnail" src="http://via.placeholder.com/250x250" alt="">
+        <div id="memberInfo">
+        <h2>Member Name</h2>
+        </div>
+    </a>
+    </div>
+    <div class="team_member"> 
+    <a href="template.php">
+    <img id="thumbnail" src="http://via.placeholder.com/250x250" alt="">
+        <div id="memberInfo">
+        <h2>Member Name</h2>
+        </div>
+    </a>
+    </div>
     </div> 
 
     <div id="pastHead">
@@ -70,18 +106,62 @@
     </div>
 
     <div id="directory">
-    <div class="thumbnail"><a class="square" href="template.php"><img src="http://via.placeholder.com/100x100"></a></div>
-    <div class="thumbnail"><a class="square" href="template.php"><img src="http://via.placeholder.com/100x100"></a></div>
-    <div class="thumbnail"><a class="square" href="template.php"><img src="http://via.placeholder.com/100x100"></a></div>
-    <div class="thumbnail"><a class="square" href="template.php"><img src="http://via.placeholder.com/100x100"></a></div>
-    <div class="thumbnail"><a class="square" href="template.php"><img src="http://via.placeholder.com/100x100"></a></div>
-    <div class="thumbnail"><a class="square" href="template.php"><img src="http://via.placeholder.com/100x100"></a></div>
-    <div class="thumbnail"><a class="square" href="template.php"><img src="http://via.placeholder.com/100x100"></a></div>
-    <div class="thumbnail"><a class="square" href="template.php"><img src="http://via.placeholder.com/100x100"></a></div>
-    <div class="thumbnail"><a class="square" href="template.php"><img src="http://via.placeholder.com/100x100"></a></div>
-    <div class="thumbnail"><a class="square" href="template.php"><img src="http://via.placeholder.com/100x100"></a></div>
-    <div class="thumbnail"><a class="square" href="template.php"><img src="http://via.placeholder.com/100x100"></a></div>
-    <div class="thumbnail"><a class="square" href="template.php"><img src="http://via.placeholder.com/100x100"></a></div>
+    <div class="team_member"> 
+    <a href="template.php">
+    <img id="thumbnail" src="http://via.placeholder.com/250x250" alt="">
+        <div id="memberInfo">
+        <h2>Member Name</h2>
+        </div>
+    </a>
+    </div>
+    <div class="team_member"> 
+    <a href="template.php">
+    <img id="thumbnail" src="http://via.placeholder.com/250x250" alt="">
+        <div id="memberInfo">
+        <h2>Member Name</h2>
+        </div>
+    </a>
+    </div>
+    <div class="team_member"> 
+    <a href="template.php">
+    <img id="thumbnail" src="http://via.placeholder.com/250x250" alt="">
+        <div id="memberInfo">
+        <h2>Member Name</h2>
+        </div>
+    </a>
+    </div>
+    <div class="team_member"> 
+    <a href="template.php">
+    <img id="thumbnail" src="http://via.placeholder.com/250x250" alt="">
+        <div id="memberInfo">
+        <h2>Member Name</h2>
+        </div>
+    </a>
+    </div>
+    <div class="team_member"> 
+    <a href="template.php">
+    <img id="thumbnail" src="http://via.placeholder.com/250x250" alt="">
+        <div id="memberInfo">
+        <h2>Member Name</h2>
+        </div>
+    </a>
+    </div>
+    <div class="team_member"> 
+    <a href="template.php">
+    <img id="thumbnail" src="http://via.placeholder.com/250x250" alt="">
+        <div id="memberInfo">
+        <h2>Member Name</h2>
+        </div>
+    </a>
+    </div>
+    <div class="team_member"> 
+    <a href="template.php">
+    <img id="thumbnail" src="http://via.placeholder.com/250x250" alt="">
+        <div id="memberInfo">
+        <h2>Member Name</h2>
+        </div>
+    </a>
+    </div>
     </div>       
 </div> 
 <!-- <div id="footer">

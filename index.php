@@ -58,8 +58,8 @@
     </div>
 
     <div id="visual_menu">
-    <a class="one" id="current" href="current.php"><img src="http://via.placeholder.com/450x250"><h2 id="currentLink">CURRENT</h1></a>
-    <a class="two" id="past" href="past.php"><img src="http://via.placeholder.com/450x250" ><h2 id="pastLink">PAST</h1></a>
+    <a class="one" id="current" href="current.php"><img src="images/current_games.png"><h2 id="currentLink">CURRENT</h1></a>
+    <a class="two" id="past" href="past.php"><img src="images/past_games.png"><h2 id="pastLink">PAST</h1></a>
     <a class="three" id="team" href="team.php"><img src="images/the_team.png"><h2 id="teamLink">THE TEAM</h1></a>
     <a class="four" id="withUs" href="withUs.php"><img src="images/work_with_us.png"><h2 id="workLink">WORK WITH US</h1></a>
     </div> 
