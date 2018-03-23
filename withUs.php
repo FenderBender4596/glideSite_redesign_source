@@ -42,28 +42,47 @@
     </div>
     </div>
 
-    <img id="hero" src="http://via.placeholder.com/350x150">
-
-    <div id="pagebox">
-    <h1>Work With Us</h1>
+    <div id="aboutBoxWeb">
+    <h1>Work WIth Us</h1>
     </div>
 
-    <div id="readBox">
-    <p>"this would be an overview of our message at glide, and the very first thing that people would read. It has to
-    be about what this company represents, and what we do at glide that makes us unique and special. Maybe a quote from
-    Doctor Foster's papers mayhaps, or something here that we could stylize it and make an image of it in this box.</p>
+    <img id="hero" src="images/withUs_hero.png">
 
-    <p>"this would be an overview of our message at glide, and the very first thing that people would read. It has to
-    be about what this company represents, and what we do at glide that makes us unique and special. Maybe a quote from
-    Doctor Foster's papers mayhaps, or something here that we could stylize it and make an image of it in this box.</p>
+    <div id="readWithBox">
+    <p>Glide Labs is located in the Drexel College of education. We are located right next 30th street station, 
+    and across from the college of engineering. We are a company that is inclusive to not only digital media students, 
+    but also to computer science, and psychology/education majors.</p>
+    
+    <h1>Are you interested in:</h1>
+    <ul>
+    <li>understanding and designing fun video games with a focus on learning?</li>
+    <li>in the psychology of how people think, learn, and explore identities?</li>
+    <li>in designing next generation learning environments?</li>
+    <li>in learning, design, & technologies?</li>
+    <li>interested in understanding the role and nature of motivation in games and immersive learning environments?</li>
+    <li>interested in working with a collaborative and dynamic team who thinks out the box?</li>
+    </ul>
 
-    <p>"this would be an overview of our message at glide, and the very first thing that people would read. It has to
-    be about what this company represents, and what we do at glide that makes us unique and special. Maybe a quote from
-    Doctor Foster's papers mayhaps, or something here that we could stylize it and make an image of it in this box.</p>
+    <h1>Research/Design Opportunities</h1>
+    <ul>
+    <li>For Teachers -  Research and Professional Development using the PCaRD and GaNA educational frameworks.</li>
+    <li>For Students - opportunites involving gameDev, webDev, graphic design, psychology, and 3D modeling.</li>
+    </ul>
 
-    <p>"this would be an overview of our message at glide, and the very first thing that people would read. It has to
-    be about what this company represents, and what we do at glide that makes us unique and special. Maybe a quote from
-    Doctor Foster's papers mayhaps, or something here that we could stylize it and make an image of it in this box.</p>
+    <p>
+    The Game and Learning in Interactive Digital Environments (GLIDE) Lab is seeking talented students to join our team! 
+    We are seeking dedicated, and enthusiastic students from many disciplines – psychology, computer science,
+    science education and digital media arts and design including, product design, web development, graphics design, and 
+    game design and development to join us in creating and researching next generation immersive learning environments. We
+    have a strong focus on collaboration, meaning that team members will be working not only projects by themselves, but 
+    also with others on projects inside and outside of the lab. 
+    </p>
+
+    <h1>Ways to Join our team</h1>
+    <ul>
+    <li>Work study student, co-op, or graduate or undergraduate research assistants.</li>
+    <li>Please send your inquiries to <a href="glidelabdrexel@gmail.com">glidelabdrexel@gmail.com</a></li> 
+    </ul>
     </div>
  
     </div> 

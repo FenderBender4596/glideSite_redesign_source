@@ -47,10 +47,8 @@
     </div>
 
     <div id="social_links">
-    <a href="home.php">Aroutis Foster</a>
-    <img class="aroutis" src="images/aroutis_icon.png" alt="aroutis">
-    <a href="home.php">Glide Email</a>
-    <img class="email" src="images/email_icon.png" alt="email">
+    <a href="home.php"><img src="images/contact_icon.png" alt="contact_direct"><h1>Aroutis Foster</h1></a>
+    <a href="home.php"><img src="images/contact_icons.png" alt="contact_email"><h1>Glide Email</h1></a>
     </div>
       
     </div>       
